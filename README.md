@@ -9,4 +9,4 @@ Luis Puente (<https://github.com/mkezmkez>)
 
 The Odin Project for more details: <https://www.theodinproject.com/courses/html5-and-css3/lessons/forms-for-collecting-data>
 
-Link for the live version hosted on githack.com: <https://raw.githack.com/paulgureghian/PROJECT_HTML_FORMS/tree/Mint>
+Link for the live version hosted on githack.com: https://raw.githack.com/paulgureghian/Project_HTML_Forms/mint/index.html
