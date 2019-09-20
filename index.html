@@ -9,18 +9,73 @@
 <body>
   <nav class="nav-bar">
     <h5>Already Have an Intuit account?</h5>
-    <h6>I forgot my User ID or Project</h6>
+    <a
+      href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1568922376%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54#">
+      <h6> I forgot my User ID or Project</h6>
+    </a>
+    <a
+      href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1568922376%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54"><img
+        class="signup" alt="sign up" src="images/signin.png"></a>
   </nav>
 
   <main>
-    <img id="logo" alt="intuit logo" src="images/logo.png">
-    <div class="form">
+    <div class="logos">
+      <img class="logo" alt="intuit logo" src="images/logo.png">
+      <img class="logo2" alt="Mint Logo" src="images/mint.png">
+      <img class="logo3" alt="quickbooks logo" src="images/quickbooks.png">
+      <img class="logo4" alt="turbotax logo" src="images/turbotax.png">
+    </div>
+
+    <div class="form-box">
+      <h1>Create an Intuit account</h1>
+      <h4>One accout for everything Intuit, including Mint.</h4>
+      <a class="learn more" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"> Learn
+        more</a>
       <form action="/signup" method="post">
-
+        <fieldset class="userinfo">
+          <label class="label">
+            Email Adress
+            <input type="email" name="email" required>
+          </label>
+          <label class="label">
+            Phone (recommended)
+            <input type="tel" name="phone-number">
+            <h5>Standard call, messaging or data rates may apply.</h5>
+          </label>
+          <label class="label">
+            Verify with text message <span></span class="italic">(most secure)</span>
+            <input type="checkbox" name="Verify with sms">
+          </label>
+          <label class="label">
+            Password
+            <input type="password" name="password" required>
+          </label>
+        </fieldset>
+        <fieldset class="submit">
+          <button type="submit" name="create account" class="create">
+            <img alt="create account" src="images/create.png">
+          </button>
+          <span class="italic">By clicking Create account, you agree to our <a
+              href="https://www.mint.com/terms">Terms</a>
+            and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement.</a></span>
+        </fieldset>
+        <fieldset class="recaptcha">
+          Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy </a>
+          and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use.</a>
+        </fieldset>
       </form>
-  </div>
-</main>
+    </div>
+  </main>
 
+  <footer>
+    <a href="http://about.intuit.com/legal/">Legal</a>
+    <a href="https://security.intuit.com/privacy/">Privacy</a>
+    <a href="http://security.intuit.com/">Security</a>
+    <h5>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+      trademarks of Intuit Inc.
+      Terms and conditions, features, support, pricing, and service options subject to change without notice.</h5>
+
+  </footer>
 </body>
 
 </html>
