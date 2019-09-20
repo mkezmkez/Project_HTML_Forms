@@ -1,13 +1,13 @@
 html {
-    background-color: #eceef1;
+  background-color: #eceef1;
 }
 
 .create {
-    padding: 0;
-    border-radius: 5px;
-    margin: auto;
-    border:1px blue solid;
-    text-align: center;
-    vertical-align: middle;
-    height:40px;
+  padding: 0;
+  border-radius: 5px;
+  margin: auto;
+  border: 1px blue solid;
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
 }
