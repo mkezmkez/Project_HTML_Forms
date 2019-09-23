@@ -1,85 +1,85 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 
 <head>
-  <link rel="stylesheet" href="styles.css">
-  <title> Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <title> Intuit Accounts - Sign Up</title>
 </head>
 
 <body>
-  <nav class="nav-bar">
-    <div class="nav-text">
-      <h5>Already have an Intuit account?</h5>
-      <a nav class="nav-link"
-        href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCAID%253D2EC1ED84050789E2-6000010D00002B18%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1569016341%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54">
+    <nav class="nav-bar">
+        <div class="nav-text">
+            <h5>Already have an Intuit account?</h5>
+            <a class="nav-link" href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCAID%253D2EC1ED84050789E2-6000010D00002B18%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1569016341%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54">
         I forgot my User ID or Password
       </a>
-    </div>
-    <a
-      href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1568922376%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54"><img
-        class="signup" alt="sign up" src="images/signin.png"></a>
-  </nav>
+        </div>
+        <a href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1568922376%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54"><img class="signup" alt="sign up" src="images/signin.png"></a>
+    </nav>
 
-  <main>
-    <div class="intuit_logo">
-      <img class="logo" alt="intuit logo" src="images/logo.png">
+    <main>
+        <div class="intuit_logo">
+            <img class="logo" alt="intuit logo" src="images/main-logo.png">
 
-      <div class="logos">
-        <img class="logo2" alt="Mint Logo" src="images/mint.png">
-        <img class="logo3" alt="quickbooks logo" src="images/quickbooks.png">
-        <img class="logo4" alt="turbotax logo" src="images/turbotax.png">
-      </div>
-    </div>
+            <div class="logos">
+                <img class="logo2" alt="Mint Logo" src="images/mint.png">
+                <img class="logo3" alt="quickbooks logo" src="images/quickbooks.png">
+                <img class="logo4" alt="turbotax logo" src="images/turbotax.png">
+            </div>
+        </div>
 
-    <div class="form_box">
-      <div class="description">
-        <h1>Create an Intuit account</h1>
-        <h4>One accout for everything Intuit, including Mint.</h4>
-        <a class="learn-more" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"> Learn
+        <div class="form_box">
+            <div class="description">
+                <h1>Create an Intuit account</h1>
+                <h4>One accout for everything Intuit, including Mint.</h4>
+                <a class="learn-more" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"> Learn
           more</a>
-      </div>
-      <form action="/signup" method="post">
-        <fieldset class="userinfo">
-          <label class="label">
+            </div>
+            <form action="/signup" method="post">
+                <fieldset class="userinfo">
+                    <label class="label">
             Email address
             <input type="email" name="email" required id="email">
           </label>
-          <label class="label phone" id="phone">
+                    <label class="label phone" id="phone">
             Phone (recommended)
             <input type="tel" name="phone-number">
-            <h5 class="rates">Standard call, messaging or data rates may apply.</h5>
+            <span class="rates">Standard call, messaging or data rates may apply.</span>
           </label>
 
-          <label class="label password" id="password">
+                    <label class="label password" id="password">
             Password
             <input type="password" name="password" required>
+            <img alt="lock" class="lock" src="images/lock-left-grey@3x.png">
           </label>
-        </fieldset>
-        <fieldset class="submit">
-          <button type="submit" name="create account" class="create">
+                </fieldset>
+                <fieldset class="submit">
+                    <button type="submit" name="create account" class="create">
             <img alt="create account" src="images/create.png">
           </button>
-          <span class="italic">By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a>
-            and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy
+                    <div class="agree">
+                        <span class="italic">By clicking Create account, you agree to our <br>
+             <a href="https://www.mint.com/terms">Terms</a>
+            and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy <br>
               Statement.</a></span>
-        </fieldset>
-        <fieldset class="recaptcha">
-          Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy </a>
-          and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use.</a>
-        </fieldset>
-      </form>
-    </div>
-  </main>
+                    </div>
+                </fieldset>
+                <fieldset class="recaptcha">
+                    Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy </a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use.</a>
+                </fieldset>
+            </form>
+        </div>
+    </main>
 
-  <footer>
     <footer class="footer">
-      <a href="http://about.intuit.com/legal/">Legal</a>
-      <a href="https://security.intuit.com/privacy/">Privacy</a>
-      <a href="http://security.intuit.com/">Security</a>
-      <h5>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
-        trademarks of Intuit Inc.
-        Terms and conditions, features, support, pricing, and service options subject to change without notice.</h5>
-
+        <div class="footer-links">
+            <a href="http://about.intuit.com/legal/">Legal</a>
+            <a href="https://security.intuit.com/privacy/">Privacy</a>
+            <a href="http://security.intuit.com/">Security</a>
+        </div>
+        <h5>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</h5>
     </footer>
 </body>
 
