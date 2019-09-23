@@ -1,5 +1,7 @@
 html {
   background-color: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .create {
@@ -22,13 +24,11 @@ html {
     flex-flow: column;
     padding:0px;
     margin-top: -15px;
-    font-family: Arial, Helvetica, sans-serif;
     padding-right: 5px;
 
 }
 
 h5 {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 12px;
     color: rgb(61, 61, 61);
@@ -41,6 +41,8 @@ h5 {
     top: -15px;
     text-decoration: none;
     text-align: center;
+    color:rgba(1, 117, 184, 0.795);       
+    
 }
 
 .logos {
@@ -50,18 +52,79 @@ h5 {
 
 .intuit_logo {
      display: block;
-     margin-top: 30px;
+     margin: 30px 0px 10px 0px;
      text-align: center;
+     
 }
 
 .form_box {
-
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
+    width: 380px;
+    margin:auto;
+}
 
+.learn-more {
+        font-size: 12px;
+        position:relative;
+        top: -17px;
+        text-decoration: none;
+        color:rgba(1, 117, 184, 0.795);       
+    }
 
+.description > h1{
+    text-align: center;
+    color: rgb(61, 61, 61);
+    font-weight: lighter;   
+    font-size: 24px;
+    padding-top:20px;
+}
 
+.description > h4{
+    text-align: center;
+    color: rgb(61, 61, 61);
+    font-weight: lighter;   
+    font-size: 14px;
+    padding-top:0;
+}
 
+.description {
+    text-align: center;
+}
 
+form > fieldset {
+    border:none;
+    margin:auto;
+    padding-left:30px;
+    padding-right: 30px;
+}
 
+.label {
+    color: rgb(61, 61, 61);
+    font-size: 14px;
+    display: flex;
+    flex-flow: column;
+}
+
+.label > input {
+display: flex;
+flex-flow: column;
+margin: 10px 0;
+width: 320px;
+height:30px;
+border: solid 1px lightgray;
+border-radius: 4px;
+padding-left: 0px;
+}
+
+.password, .phone {
+margin-top:25px;
+}
+
+.rates {
+    display: flex;
+    justify-content: flex-start;
+    margin-top:-5px;
+    padding-top:0;
+    font-size: 10px;
 }

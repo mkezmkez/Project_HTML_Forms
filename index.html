@@ -9,11 +9,11 @@
 <body>
   <nav class="nav-bar">
     <div class="nav-text">
-    <h5>Already have an Intuit account?</h5>
-    <a nav class= "nav-link"
-      href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1568922376%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54#">
-      I forgot my User ID or Password
-    </a>
+      <h5>Already have an Intuit account?</h5>
+      <a nav class="nav-link"
+        href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCAID%253D2EC1ED84050789E2-6000010D00002B18%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1569016341%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54">
+        I forgot my User ID or Password
+      </a>
     </div>
     <a
       href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D78142079535769121282705009642404438951%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1568922376%26ivid%3D0718f793-f1aa-4028-842e-7e81b4d6bb54"><img
@@ -24,34 +24,33 @@
     <div class="intuit_logo">
       <img class="logo" alt="intuit logo" src="images/logo.png">
 
-    <div class="logos">
-      <img class="logo2" alt="Mint Logo" src="images/mint.png">
-      <img class="logo3" alt="quickbooks logo" src="images/quickbooks.png">
-      <img class="logo4" alt="turbotax logo" src="images/turbotax.png">
+      <div class="logos">
+        <img class="logo2" alt="Mint Logo" src="images/mint.png">
+        <img class="logo3" alt="quickbooks logo" src="images/quickbooks.png">
+        <img class="logo4" alt="turbotax logo" src="images/turbotax.png">
+      </div>
     </div>
-  </div>
 
     <div class="form_box">
-      <h1>Create an Intuit account</h1>
-      <h4>One accout for everything Intuit, including Mint.</h4>
-      <a class="learn more" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"> Learn
-        more</a>
+      <div class="description">
+        <h1>Create an Intuit account</h1>
+        <h4>One accout for everything Intuit, including Mint.</h4>
+        <a class="learn-more" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"> Learn
+          more</a>
+      </div>
       <form action="/signup" method="post">
         <fieldset class="userinfo">
           <label class="label">
-            Email Adress
-            <input type="email" name="email" required>
+            Email address
+            <input type="email" name="email" required id="email">
           </label>
-          <label class="label">
+          <label class="label phone" id="phone">
             Phone (recommended)
             <input type="tel" name="phone-number">
-            <h5>Standard call, messaging or data rates may apply.</h5>
+            <h5 class="rates">Standard call, messaging or data rates may apply.</h5>
           </label>
-          <label class="label">
-            Verify with text message <span></span class="italic">(most secure)</span>
-            <input type="checkbox" name="Verify with sms">
-          </label>
-          <label class="label">
+
+          <label class="label password" id="password">
             Password
             <input type="password" name="password" required>
           </label>
@@ -60,8 +59,10 @@
           <button type="submit" name="create account" class="create">
             <img alt="create account" src="images/create.png">
           </button>
-          <span class="italic">By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a>
-            and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement.</a></span>
+          <span class="italic">By clicking Create account, you agree to our <a
+              href="https://www.mint.com/terms">Terms</a>
+            and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy
+              Statement.</a></span>
         </fieldset>
         <fieldset class="recaptcha">
           Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy </a>
